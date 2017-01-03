@@ -30,9 +30,9 @@ eightball.shake() // yes || no || maybe
 
 ```
 var palindrome = require('./palindrome');
-palindrome.isPalindrome('hello') // true
+palindrome.isPalindrome('hello') // false
 palindrome.isPalindrome('racecar') // true
-palindrome.isPalindrome('a man a plan panama') // true
+palindrome.isPalindrome('a man a plan a canal panama') // true
 ```
 
 `piglatin.js`
